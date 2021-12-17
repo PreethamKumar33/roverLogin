@@ -1,0 +1,33 @@
+.content-container{
+    position: absolute;
+    top: 420px;
+    width: 100%;
+}
+
+.doc-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: fit-content;
+    margin: auto;
+    top: 120px;
+    position: relative;
+
+}
+
+h1{
+    font-weight: 500;
+    font-size: 32px;
+    top: 50px;
+    position: relative;
+    margin: auto;
+    width: fit-content;
+}
+
+.stepper{
+    width: fit-content;
+    margin: auto;
+    position: relative;
+    top: 100px;
+}
+

@@ -1,0 +1,24 @@
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.line {
+    width: 100px;
+    height: 0;
+    border: 1px solid white;
+    margin-bottom: 25px;
+  }
+
+  .next-btn{
+     margin-left: 90px;
+     position: relative;
+     bottom: 12px;
+  }
+
+  .prev-btn{
+    margin-right: 90px;
+    position: relative;
+     bottom: 12px;
+  }

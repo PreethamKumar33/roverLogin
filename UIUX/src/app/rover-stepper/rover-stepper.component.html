@@ -1,0 +1,12 @@
+<div class="container">
+    <rover-button (click)="onPrevClick()" class="prev-btn" [label]="'PREVIOUS'"></rover-button>
+    <rover-step step="1" [selected]="selected[0]" label="location"></rover-step>
+    <div class="line"></div>
+    <rover-step step="2" [selected]="selected[1]" label="domain"></rover-step>
+    <div class="line"></div>
+    <rover-step step="3" [selected]="selected[2]" label="tags"></rover-step>
+    <div class="line"></div>
+    <rover-step step="4" [selected]="selected[3]" label="upload"></rover-step>
+    <rover-button (click)="onNextClick()" class="next-btn" [label]="'NEXT'"></rover-button>
+</div>
+

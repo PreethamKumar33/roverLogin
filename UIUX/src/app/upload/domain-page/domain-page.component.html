@@ -1,0 +1,23 @@
+
+<div class="container">
+    <h2 style="text-align: center;">Choose domain and concepts</h2>
+    <p style="text-align: center;">The more specific the domian the more relevant tags will be extracted</p>
+
+    <mini-search-box placeholderText="Search domain" class="search-box"></mini-search-box>
+
+    <div class="divider"></div>
+
+    <div class="finance-chips">
+        <display-chips [categories]="financeDomains" title="FINANCE"></display-chips>
+    </div>
+    <div class="education-chips">
+        <display-chips [categories]="educationDomains" title="EDUCATION"></display-chips>
+    </div>
+
+    <div class="concept-chips">
+        <display-chips [categories]="concepts" [isDomain]="false" title="RELATED CONCEPTS"></display-chips>
+    </div>   
+    
+</div>
+
+

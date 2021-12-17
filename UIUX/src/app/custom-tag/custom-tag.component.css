@@ -1,0 +1,44 @@
+.add-btn{
+    background-color: #254fe3 ;
+    padding: 10px;
+    padding-top: 5px;
+    padding-bottom: 12px;
+    height: 15px;
+    font-size: 14px;
+    line-height: 15px;
+    border-radius: 25px;
+    width: fit-content;
+    margin: 5px;
+    border-style: solid;
+    border-width: thin;
+    display: flex;
+    align-items: center;
+    border-color: white;
+}
+
+.btn{
+    height: auto;
+    width: auto;
+    border: none;
+    background: none;
+    position: relative;
+    top: 4px;
+    left: 0px;
+}
+
+.mat-icon{
+    color: white;
+    font-size: 20px;
+  width: 20px;
+  height: 20px;
+}
+
+.txt{
+    margin-right: 5px;
+    position: relative;
+    top: 4px;
+}
+
+.add-btn:hover, .mat-icon:hover{
+    cursor: pointer;
+}

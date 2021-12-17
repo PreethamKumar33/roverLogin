@@ -1,0 +1,11 @@
+<div
+   class="chip"
+   (click)="onChipClick()"
+   [class.chip-selected]="chip.selected"
+   [class.chip-unselected]="!chip.selected">
+     {{chip.name}}
+     <button class="btn">
+      <mat-icon *ngIf="chip.selected" color="accent">check_circle</mat-icon>
+      <mat-icon *ngIf="!chip.selected" color="accent">check_circle_outline</mat-icon>
+     </button>
+  </div>

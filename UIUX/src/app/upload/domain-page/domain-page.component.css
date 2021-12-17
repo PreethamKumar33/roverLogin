@@ -1,0 +1,36 @@
+.concept-chips{
+    position: absolute;
+    top: 35%;
+    width: 40%;
+    left: 55%;
+}
+
+.divider{
+    border-left: 1px solid #4074fb;
+    height: 400px;
+    width: 0;
+    margin:auto;
+    position: relative;
+    top: 50px;
+}
+
+.search-box{
+    position: relative;
+    top: 20px;
+}
+
+.finance-chips{
+    position: absolute;
+    top: 35%;
+    left: 7%;
+    width: 40%;
+}
+
+.education-chips{
+    position: absolute;
+    top: 70%;
+    left: 7%;
+    width: 40%;
+}
+
+

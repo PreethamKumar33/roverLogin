@@ -1,0 +1,22 @@
+.chip{
+    padding: 10px;
+  height: 15px;
+  font-size: 14px;
+  line-height: 15px;
+  border-radius: 25px;
+  width: fit-content;
+  margin: 5px;
+}
+.chip:hover{
+    cursor: pointer;
+}
+
+.chip-selected{
+    background-color: #02c89a;
+    color: white;
+}
+
+.chip-unselected{
+    background-color: white;
+    color: #254fe3 ;
+}

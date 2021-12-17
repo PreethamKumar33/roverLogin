@@ -1,0 +1,29 @@
+.box{
+    width: 44px;
+    height: 18.86px;
+    padding: 5px;
+    border-radius: 6px;
+    font-size: x-small;
+    text-align: center;
+    margin: 10px;
+    line-height: 20px;
+}
+
+.box-exl{
+    background-color: #d6ebd0;
+    color: #4ca82a;
+}
+
+.box-doc{
+    background-color: #D4E0FE;
+    color: #254fe3;
+}
+
+.box-pdf{
+    background-color: #f7d0d0;
+    color: #df2f2f;
+}
+
+.txt{
+    text-align: center;
+}

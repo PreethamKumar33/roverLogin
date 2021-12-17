@@ -1,0 +1,6 @@
+<div class="box"
+ [class.box-exl]="docType=='EXL'"
+ [class.box-doc]="docType=='DOC'"
+ [class.box-pdf]="docType=='PDF'"
+ >{{docType}}</div>
+ <div *ngIf="numberOfDocs" class="txt">{{numberOfDocs}} files</div>   

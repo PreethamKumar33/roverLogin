@@ -1,0 +1,18 @@
+<div class="title">{{title}}</div>
+<div>
+    <div *ngIf = "isDomain">
+        <div class="chip" *ngFor="let chip of categories; last as last" >
+            <domain-tag [chip]="chip"></domain-tag>
+        </div>
+        <div class="chip" *ngIf="isTag">
+            <custom-tag></custom-tag>
+        </div>
+    </div>
+    <div *ngIf = "!isDomain">
+        <div class="chip" *ngFor="let chip of categories" >
+            <concept-tag [chip]="chip"></concept-tag>
+        </div> 
+    </div>
+       
+</div>
+

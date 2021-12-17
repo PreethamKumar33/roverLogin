@@ -1,0 +1,7 @@
+<div class="container">
+    <h2 style="text-align: center;">Upload Progress</h2>
+    <button class="btn">RUN IN THE BACKGROUND</button>
+    <div style="width: fit-content; margin: auto; margin-top: 30px;">
+        <rover-progress-bar *ngFor="let doc of documents" [docStatus]="doc"></rover-progress-bar>
+    </div>
+</div>

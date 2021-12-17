@@ -1,0 +1,40 @@
+.chip{
+  padding-left: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border-radius: 25px;
+  font-size: small;
+  margin: 5px;
+}
+.chip:hover, .btn:hover{
+    cursor: pointer;
+}
+
+.btn{
+  height: auto;
+  width: auto;
+  background: none;
+  border: none;
+}
+
+.mat-icon{
+  font-size: 20px;
+  width: 20px;
+  height: 20px;
+}
+
+.chip-unselected{
+  background-color: #3b60e6;
+  color: #abb0c0;
+}
+
+.chip-selected{
+  color: white;
+  background-color: #6881db;
+}
+

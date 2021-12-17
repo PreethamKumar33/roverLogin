@@ -1,0 +1,10 @@
+.search-box{
+    position: relative;
+    top: 20px;
+}
+
+.chips-container{
+    width: 60%;
+    margin: auto;
+    margin-top: 50px;
+}
