@@ -1,4 +1,4 @@
-from module import file_handler
+from core.storage import file_handler
 
 
 def get_ner(model):

@@ -8,7 +8,7 @@ __plugin_dict = {}
 
 def import_module(plugin_name):
     if __plugin_dict.get(plugin_name) is not None and __plugin_dict.get(plugin_name)["timestamp"] > os.path.getmtime(
-            "plugin_config.py"):
+            "../../../plugins/plugin_config.py"):
         return __plugin_dict[plugin_name]["module"]
     __plugin_dict[plugin_name] = {"module": importlib.import_module("plugins." + plugin_config.config.get(plugin_name)),
                                   "timestamp": time.time()}

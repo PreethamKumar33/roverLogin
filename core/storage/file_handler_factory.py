@@ -1,6 +1,6 @@
 from typing import Callable
 
-from module.file_handler import FileProcessor
+from core.storage.file_handler import FileProcessor
 
 file_processor_creation_funcs: dict[str, Callable[..., FileProcessor]] = {}
 

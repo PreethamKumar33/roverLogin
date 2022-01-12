@@ -1,5 +1,5 @@
-from plugins import loader
-from module import tagger
+from core.nlp.module import loader, tagger
+
 
 cloud_storage_plugin = loader.import_module("cloud_storage_plugin")
 pdf_processor_plugin = loader.import_module("pdf_processor_plugin")

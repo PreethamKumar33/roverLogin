@@ -1,4 +1,4 @@
-from app import app
+from core.nlp.app import app
 
 @app.route("/")
 def home():
