@@ -1,0 +1,38 @@
+<div class="container" fxLayoutAlign="center center">
+    <div class="img-box">
+        <img src="../../assets/roverLogo.png" alt="">
+    </div>
+</div>
+
+<mat-toolbar fxLayoutAlign="center center">
+    <span style='font-size:120%;'>Sign up for Rover
+    </span>
+</mat-toolbar>
+
+<div fxLayoutAlign="center center" fxFlexFill>
+    <mat-card fxFlex="25" class="login">
+        <form fxLayoutAlign="stretch" fxLayout='column'>
+
+            <mat-form-field class="username">
+                <mat-label>Full name</mat-label>
+                <input matInput #fullname>
+            </mat-form-field>
+
+            <mat-form-field class="username">
+                <mat-label>Username or email address</mat-label>
+                <input matInput #email>
+            </mat-form-field>
+
+            <mat-form-field class="username">
+                <mat-label>Password</mat-label>
+                <input matInput type="password" #password>
+            </mat-form-field>
+            <button mat-raised-button type="submit" class="submit" onclick="registerUser(fullname,email,password)">Sign
+                up</button>
+            <p>
+                Already have an account?
+                <a routerLink="/login" routerLinkActive="active">Sign in</a>
+            </p>
+        </form>
+    </mat-card>
+</div>

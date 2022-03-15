@@ -43,3 +43,9 @@
     
     
 }
+
+.nav{
+    display: flex;
+    align-items: top;
+    justify-content: right;
+}

@@ -3,6 +3,14 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import {MatIconModule} from '@angular/material/icon';
 import {MatProgressBarModule} from '@angular/material/progress-bar';
+import { FlexLayoutModule } from '@angular/flex-layout';
+import {MatFormFieldModule} from '@angular/material/form-field'; 
+import {MatInputModule} from '@angular/material/input';
+import {MatButtonModule} from '@angular/material/button'; 
+import {MatCardModule} from '@angular/material/card'; 
+import {MatToolbarModule} from '@angular/material/toolbar'; 
+import { HttpClientModule } from '@angular/common/http';
+
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -23,6 +31,9 @@ import { LocationPageComponent } from './upload/location-page/location-page.comp
 import { UploadPageComponent } from './upload/upload-page/upload-page.component';
 import { CustomTagComponent } from './custom-tag/custom-tag.component';
 import { RoverProgressBarComponent } from './rover-progress-bar/rover-progress-bar.component';
+import { LoginComponent } from './login/login.component';
+import { HomeComponent } from './home/home.component';
+import { RegisterComponent } from './register/register.component';
 
 @NgModule({
   declarations: [
@@ -42,14 +53,24 @@ import { RoverProgressBarComponent } from './rover-progress-bar/rover-progress-b
     LocationPageComponent,
     UploadPageComponent,
     CustomTagComponent,
-    RoverProgressBarComponent
+    RoverProgressBarComponent,
+    LoginComponent,
+    HomeComponent,
+    RegisterComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
     MatIconModule,
-    MatProgressBarModule
+    MatProgressBarModule,
+    FlexLayoutModule,
+    MatFormFieldModule,
+    MatInputModule,
+    MatButtonModule,
+    MatCardModule,
+    MatToolbarModule,
+    HttpClientModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

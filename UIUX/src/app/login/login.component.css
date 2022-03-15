@@ -1,0 +1,62 @@
+.username{
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.submit{
+    background: #008000;
+    color: whitesmoke;
+}
+
+.submit:hover{
+    background-color: #908000;
+}
+
+p{
+    padding-bottom: 0%;
+    /* padding-left: 19px; */
+}
+
+.login{
+    background: #FFFFFD;
+    box-shadow: 2px 2px 3px #3d3d3d;
+    /* border: 3px solid black; */
+    border-radius: 12px;
+}
+
+mat-toolbar{
+    background-color: black;
+    color: #254fe3;
+    /* padding-left: 5px; */
+}
+
+.divider{
+    width: 0;
+    border-left: 1px solid #dddddd;
+    height: 110px;
+    position: absolute;
+    left: 17%;
+}
+
+img{
+    height: 48px;
+    width: 100%;
+}
+
+/* .img-box{ */
+/* position: absolute; */
+/* top: 31px;
+left: 2.55%; */
+/* } */
+
+.container{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    background:black;
+    height: 110px;
+}
+
+div{
+    background: black;
+}
